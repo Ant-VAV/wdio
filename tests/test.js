@@ -13,7 +13,7 @@ describe('Test suit', function () {
             .then(result => assert(result));
     });
 
-    it('test to fail 2', function () {
+    it('test to pass 2', function () {
         return browser.url('http://webdriver.io')
             .then(() => browser.waitForVisible('header .header'));
     });
